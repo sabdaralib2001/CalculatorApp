@@ -18,6 +18,22 @@ class Calculator
    {
      sumResult = first + second;
    }
+   public void performSubstraction()
+   {
+     subResult = first - second;
+   }
+   public void performMultiplication()
+   {
+     mulResult = first * second;
+   }
+   public void performDivision()
+   {
+     divResult = first / second;
+   }
+   public void performRemainder()
+   {
+     remResult = first % second;
+   }
 }
 
 class CalculatorManager
@@ -26,5 +42,9 @@ class CalculatorManager
   {
    Calculator c1 = new Calculator(5,3);
     c1.performAdd();
+    c1.performSubstraction();
+    c1.performMultiolication();
+    c1.performDivision(); 
+    c1.perforRemainder(); 
   }
 }
